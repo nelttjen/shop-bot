@@ -52,4 +52,4 @@ async def add_by_user_id(message: types.Message, state: FSMContext):
     except ValueError:
         await message.reply('ID должно быть числом')
 
-# test
+# test 2
