@@ -51,3 +51,5 @@ async def add_by_user_id(message: types.Message, state: FSMContext):
         await message.reply('Пользователь добавлен.', reply_markup=get_start_keyboard())
     except ValueError:
         await message.reply('ID должно быть числом')
+
+# test
